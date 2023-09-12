@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "type": "Drop Off",
+      "delivery": "I can drop off to an organisation in my area"
+    },
+    {
+      "id": 2,
+      "type": "Collect",
+      "delivery": "I need an organisation to collect my donation"
+    },
+    {
+      "id": 3,
+      "type": "Service / Volunteer",
+      "delivery": "I am volunteering or offering a service"
+    },
+    {
+      "id": 4,
+      "type": "Post / Courier",
+      "delivery": "I can send Australia-wide"
+    },
+    {
+      "id": 5,
+      "type": "Voucher",
+      "delivery": "I can purchase and email a voucher to the organisation"
+    }
+  ]
+  

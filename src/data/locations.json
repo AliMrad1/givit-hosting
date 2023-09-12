@@ -1,0 +1,11 @@
+[
+  { "id": "-1", "state": "Choose state", "value": "..." },
+  { "id": "2", "state": "Queensland", "value": "QLD" },
+  { "id": "3", "state": "New South Wales", "value": "NSW" },
+  { "id": "4", "state": "Australian Capital Territory", "value": "ACT" },
+  { "id": "5", "state": "Victoria", "value": "VIC" },
+  { "id": "6", "state": "Northern Territory", "value": "NT" },
+  { "id": "7", "state": "Western Australia", "value": "WA" },
+  { "id": "8", "state": "South Australia", "value": "SA" },
+  { "id": "9", "state": "Tasmania", "value": "TAS" }
+]

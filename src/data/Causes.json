@@ -1,0 +1,24 @@
+[
+    { "id": 1, "cause": "Addiction" },
+    { "id": 2, "cause": "Aged care" },
+    { "id": 3, "cause": "COVID-19" },
+    { "id": 4, "cause": "Domestic and family violence" },
+    { "id": 5, "cause": "DroughtEconomic" },
+    { "id": 6, "cause": "Education Support" },
+    { "id": 7, "cause": "First Nations support" },
+    { "id": 8, "cause": "supportHomelessness" },
+    { "id": 9, "cause": "Mental illness" },
+    { "id": 10, "cause": "mental health" },
+    { "id": 11, "cause": "Natural disaster" },
+    { "id": 12, "cause": "NSW July 22 Flooding" },
+    { "id": 13, "cause": "Physical illness/disability" },
+    { "id": 14, "cause": "QLD May flooding" },
+    { "id": 15, "cause": "Refugee/asylum seeker" },
+    { "id": 16, "cause": "Sexual violence" },
+    { "id": 17, "cause": "Small business" },
+    { "id": 18, "cause": "economic hardship" },
+    { "id": 19, "cause": "Unemployed" },
+    { "id": 10, "cause": "VIC Flooding 2022" },
+    { "id": 1, "cause": "Young person in / leaving care" }
+  ]
+  

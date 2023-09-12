@@ -1,13 +1,116 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.link-hover:hover {
+    color: aqua !important;
+}
+.link-hover{
+    text-decoration: none;
+    
+}
+.img-hover,
+.link-hover,
+.hoverBorderBottom {
+    transition: transform 0.3s ease;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hoverBorderBottom:hover {
+    border-color: aqua;
+    border-bottom: 2px;
+    border-style: solid;
+    
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+}
+
+.whatWedoLink:hover {}
+
+/* toggle navbar and sidebar */
+/* .navbarRender {
+    display: block !important;
+}  */
+/* .navbarSide {
+    display: none;
+} */
+
+@media (max-width: 997px) {
+    .navbarRender {
+        display: none !important;
+    }
+
+    .navbarSide {
+        display: block !important;
+    }
+}
+
+
+@media (max-width:767px) {
+    .imgCard{
+        width: 75% !important;
+    }
+}
+@media (max-width:560px) {
+    .appealBox{
+        width: 65% !important;
+    }
+}
+
+/* main page */
+.main-page {
+    background-image: url('./assets/images/mainImage.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+}
+/* what-we-do latest */
+.wedLatest .img img,
+.wedLatest .content .arrow{
+    transition: transform 0.3s ease;
+}
+.wedLatest .col-10:hover .img img{
+    transform: scale(1.1);
+}
+.wedLatest .col-10:hover .content .arrow{
+    margin-left: 5px;
+}
+/* what-we-do latest */
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.btn-length{
+    top: -25%;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .borderNoneMobile
+    {
+        border:none !important;
+    }
+    .btnLeft,.btnRight{
+        font-size: 13px !important;
+    }
+}
+
+.btnLeft{
+    border-radius:1.9rem 0 0 1.9rem !important 
+}
+.btnRight{
+    border-radius:0 1.9rem 1.9rem 0 !important 
+}
+
+.h-fit{
+    height: fit-content;
 }
